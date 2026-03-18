@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development tsx ./src/index.ts",
-    "build": "tsx ./build.ts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "dev": "python main.py",
+    "build": "echo 'Python backend - no build step needed'",
+    "typecheck": "echo 'Python backend - no typecheck step'"
   },
   "dependencies": {
     "@workspace/api-zod": "workspace:*",
