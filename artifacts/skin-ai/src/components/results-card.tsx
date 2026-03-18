@@ -28,7 +28,7 @@ export function ResultsCard({ result, onReset }: ResultsCardProps) {
             </span>
           </div>
           
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-teal-400">
             {result.disease}
           </h2>
           

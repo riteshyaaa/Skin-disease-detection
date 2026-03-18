@@ -82,7 +82,7 @@ export function Layout({ children }: LayoutProps) {
             <span className="font-display font-bold text-lg">DermAI</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Replit Agent • Clinical UI Demo
+            IIT Kaman
           </p>
           <div className="flex gap-4">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
