@@ -6,3 +6,9 @@ id = "xtpsUoCPMr41JlTqHjAFU"
 uri = "file://artifacts/skin-ai/public/skin-ai-project.tar.gz"
 type = "unspecified"
 title = "skin-ai-project.tar.gz"
+
+[[outputs]]
+id = "eSVYimvbFPXbRfbLULHQB"
+uri = "file://artifacts/skin-ai/public/skin-ai-source.tar.gz"
+type = "unspecified"
+title = "DermAI — Full Source Code (.tar.gz)"
