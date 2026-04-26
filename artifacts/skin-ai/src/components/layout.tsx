@@ -28,7 +28,10 @@ export function Layout({ children }: LayoutProps) {
       <div className="bg-primary/10 border-b border-primary/20 text-primary-foreground py-2 px-4 z-20">
         <div className="max-w-7xl mx-auto flex items-center justify-center gap-2 text-xs font-medium text-primary">
           <ShieldAlert className="w-4 h-4" />
-          <span>For educational purposes only. Always consult a certified dermatologist for professional medical advice.</span>
+          <span>
+            For educational purposes only. Always consult a certified
+            dermatologist for professional medical advice.
+          </span>
         </div>
       </div>
 
@@ -56,10 +59,15 @@ export function Layout({ children }: LayoutProps) {
                       "flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ease-out",
                       isActive
                         ? "bg-white text-primary shadow-sm ring-1 ring-black/5"
-                        : "text-muted-foreground hover:text-foreground hover:bg-white/50"
+                        : "text-muted-foreground hover:text-foreground hover:bg-white/50",
                     )}
                   >
-                    <item.icon className={cn("w-4 h-4", isActive ? "text-primary" : "opacity-70")} />
+                    <item.icon
+                      className={cn(
+                        "w-4 h-4",
+                        isActive ? "text-primary" : "opacity-70",
+                      )}
+                    />
                     {item.label}
                   </Link>
                 );
@@ -82,10 +90,13 @@ export function Layout({ children }: LayoutProps) {
             <span className="font-display font-bold text-lg">DermAI</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            IIT Kaman
+            &copy; {new Date().getFullYear()} DermAI. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a
+              href="#"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
               <FileText className="w-5 h-5" />
             </a>
           </div>
